@@ -24,7 +24,7 @@ definePageMeta({
             <p class="mt-2 text-sm leading-6 text-gray-500">
               Not a member?
               {{ ' ' }}
-              <a href="#" class="font-semibold text-purple-600 hover:text-purple-500">Start a 14 day free trial</a>
+              <NuxtLink href="/auth/register" class="font-semibold text-purple-600 hover:text-purple-500">Create an account</NuxtLink>
             </p>
           </div>
   
@@ -94,7 +94,7 @@ definePageMeta({
           </div>
         </div>
       </div>
-      <div class="relative hidden w-0 flex-1 lg:block overflow-hidden">
+      <div class="relative hidden w-0 flex-1 lg:block">
         <Vector classes="absolute inset-0 h-full w-full object-cover" />
       </div>
     </div>
